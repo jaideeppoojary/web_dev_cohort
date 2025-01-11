@@ -96,3 +96,27 @@ Let's see about some basic commands. That you will be using while working on a p
 
 > You can use the below command to check all the commit history (saved changes).
 * `git log` – View a history of your commits.
+
+___
+
+# Commit Message Rules
+While saving the changes using the git commit command you should follow rules. So that while see the commit history it should be easily untestable by others.
+
+When writing commit messages, follow these simple rules:
+
+1. **Use present tense**: Write "Add feature" instead of "Added feature".
+2. **Capitalize the first letter** of the message.
+3. **Keep it short and to the point** (50 characters or less).
+4. **Use prefixes for categorization**, such as:
+
+* `feat`: for new features
+* `fix`: for bug fixes
+* `chore`: for general updates
+* `docs`: for documentation updates
+
+### Example commit messages:
+```
+  feat: Add tea selection feature
+  fix: Resolve login issue for tea lovers
+  docs: Update README with chai varieties
+```
