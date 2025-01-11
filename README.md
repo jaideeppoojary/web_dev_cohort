@@ -120,3 +120,51 @@ When writing commit messages, follow these simple rules:
   fix: Resolve login issue for tea lovers
   docs: Update README with chai varieties
 ```
+
+# Branching Workflow
+At ChaiCode, we follow a simple branching strategy:
+* **main**: This is the stable version of the code.
+* **development**: This is where active development happens.
+* **feature** branches: These are created for new features or bug fixes.
+
+**Creating and Switching Branches**: To create and switch to a new branch.
+You can use `git branch` followed by branch name command to create a new branch and use git checkout followed by branch name to switch to that branch.
+```
+  git branch feature/tea-menu
+  git checkout feature/tea-menu
+```
+
+After finishing the work you can merge all your updated code to other branch locally by running `git merge` followed by branch name.
+
+To take latest code from `feature/tea-menu` branch to `main` branch. Switch to main branch and run merge command like below.
+  ```
+    git switch main
+    git merge feature/tea-menu
+  ```
+  
+Above command will take the updates to `main` branch from `feature/tea-menu` branch.
+
+# Pull Requests (PR)
+Pull Requests are how you propose changes to the main project. Here's how to create a PR:
+1. Push your branch to GitHub.
+
+> After doing all the changes, usually we will not merge changes from our branch to main branch locally using git merge command. 
+
+> You can create a Pull requirest, it will be reviewed by senior and if corrections are there, they will sugguest it there. 
+
+> For that first push you changes to GitHub using the below command.
+
+  ```
+    git push
+  ```
+
+2. On GitHub, open the repository and click on "New Pull Request".
+
+3. Select the branch from which branch to which branch you want to move the changes.
+
+4. Provide the proper title for the PR, give a proper description about you changes and add reviewer who will review your code changes.
+
+# Best Practices
+* **Commit regularly**: Try to commit your changes often, so you don't lose your work.
+* **Write meaningful commit messages**: This helps others understand your changes.
+* **Pull updates regularly**: Before you start working, always pull the latest changes to avoid conflicts.
