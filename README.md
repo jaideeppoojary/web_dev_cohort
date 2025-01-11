@@ -60,3 +60,39 @@ ___
   ```
 
 * After cloning, go into the project folder
+
+# Setting up the shared project in local machine using git & GitHub
+1. Cloning Repository include following steps
+
+* Copy the shared git repository (project) URL. 
+* Open the terminal in your local machine.
+* Run the below command.
+
+  ```
+  git clone https://github.com/ChaiCode/example-repo.git
+  ```
+
+* After cloning, go into the project folder
+
+# Basic Git Commands
+Let's see about some basic commands. That you will be using while working on a project.
+
+> When you are working on project and made changes in many files. You can use this below command to check what, and all files are newly added or modified.
+
+* `git status` – Check the status of your files (modified, added, etc.)
+
+> Git will not track the changes unless you instruct it. You can do it by using below command.
+ * `git add .` – Add all the changes you made to be saved (commit).
+
+> After telling the git what and all the files to track using above command use can use the below command to save your changes.
+
+* `git commit -m "Your message"` – Save your changes with a message.
+
+> After saving the changes using the above command. These changes will be in your local. You can use the below command to push the changes to GitHub, So other take the updates changes.
+ * `git push` – Push your changes to GitHub.
+
+> Suppose the updated changes are in Remote branch (GitHub). You can get those updated changes using the below command.
+* `git pull` – Get the latest changes from the GitHub repository.
+
+> You can use the below command to check all the commit history (saved changes).
+* `git log` – View a history of your commits.
