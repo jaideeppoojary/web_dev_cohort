@@ -17,6 +17,8 @@ Ok, let's start…🔥
 # Installation
 * Visit git official website: Git - Downloads
 If you are on windows, it's just simply clicking download and click next, next, next.
+![git-web](https://github.com/user-attachments/assets/98fef351-4af8-4f08-97cc-bf24814b0ef9)
+
 
 * If you are using macOS. You can run below command.
 
@@ -80,6 +82,8 @@ Let's see about some basic commands. That you will be using while working on a p
 > When you are working on project and made changes in many files. You can use this below command to check what, and all files are newly added or modified.
 
 * `git status` – Check the status of your files (modified, added, etc.)
+  
+![git status](https://github.com/user-attachments/assets/a4aeb396-5322-4d32-8400-125b23f4bd12)
 
 > Git will not track the changes unless you instruct it. You can do it by using below command.
  * `git add .` – Add all the changes you made to be saved (commit).
@@ -159,10 +163,13 @@ Pull Requests are how you propose changes to the main project. Here's how to cre
   ```
 
 2. On GitHub, open the repository and click on "New Pull Request".
+![pull1](https://github.com/user-attachments/assets/2e8ef6dc-62ed-4124-9bb5-544bdb5fb272)
 
 3. Select the branch from which branch to which branch you want to move the changes.
+![pull2](https://github.com/user-attachments/assets/ba08b322-5318-4e50-804e-fdc72342ccd6)
 
 4. Provide the proper title for the PR, give a proper description about you changes and add reviewer who will review your code changes.
+![pull3](https://github.com/user-attachments/assets/ad0884fc-1dee-43bb-a804-fd0b12618f2a)
 
 # Best Practices
 * **Commit regularly**: Try to commit your changes often, so you don't lose your work.
