@@ -11,3 +11,52 @@ You might ask, Why is Git required? Well in simple, Git makes it easy to track e
 
 > GitHub is a platform where you can store and share your Git repositories. It helps teams work together on projects. You can see each other's changes, leave comments, and suggest improvements.
 
+
+Ok, let's start…🔥
+
+# Installation
+* Visit git official website: Git - Downloads
+If you are on windows, it's just simply clicking download and click next, next, next.
+
+* If you are using macOS. You can run below command.
+
+  ```
+  brew install git
+  ```
+
+* If you are using linux. You can run below command.
+  ```
+  sudo apt install git
+  ```
+
+# Configuring Git
+Once Git is installed, you need to set up your name and email. Open your terminal and run the following commands.
+  ```
+  git config --global user.name "Your Name"
+  git config --global user.email "your.email@example.com"
+  ```
+
+For now, only this much is enough. [You can check more](https://docs.github.com/en/get-started/getting-started-with-git).
+
+___
+
+# Getting started with your GitHub account
+Creating the github account is simple. To sign up for an account, navigate to https://github.com/ and follow the prompts.
+
+* It asks general question like username and password enter and proceed further.
+* Clear the I'm not a robot step.
+* After that your account is ready to use.
+
+___
+# Setting up the shared project in local machine using git & GitHub
+* Cloning Repository include following steps
+
+* Copy the shared git repository (project) URL. 
+* Open the terminal in your local machine.
+* Run the below command.
+
+  ```
+  git clone https://github.com/ChaiCode/example-repo.git
+  ```
+
+* After cloning, go into the project folder
